@@ -11,3 +11,17 @@ header {
 nav a:hover {
     background-color: black;
 }
+.icon {
+    width: 80px;
+}
+nav a {
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
+}  
+footer p {
+    font-size: 1.2em;
+}   
+footer p a:hover {
+    text-decoration: underline;
+}    
