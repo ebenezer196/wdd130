@@ -3,13 +3,13 @@
 }
 
 body {
-    background-color: #fcfbfb; 
+    background-color: #585b98; 
 }
 header {
-    background-color:rgba(20,30,13, .7);
+    background-color:rgba(107, 110, 105, 0.7);
 }
 nav a:hover {
-    background-color: black;
+    background-color: rgb(34, 29, 29);
 }
 .icon {
     width: 80px;
