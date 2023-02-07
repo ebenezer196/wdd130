@@ -29,6 +29,13 @@ main section{
 
 body {
     background-color: #fbfcfe; 
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
 }
 header {
     background-color:rgba(107, 110, 105, 0.7);
@@ -38,30 +45,56 @@ nav a:hover {
 }
 .book{
     background-color: rgb(34, 29, 29);
-}
+    padding: 15px 30px;
+    margin-top: 50px;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+
+     }
 .join{
     background-color: rgb(242, 241, 247);
-}
+    padding: 15px 30px;
+    margin-top: 50px;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+     }
+     .card-img {
+        border: 10px solid #d9c2a3;
+    }
+    main section img {
+        box-sizing: border-box;
+    }
 .book:hover{
     background-color: rgb(4, 79, 117);
-}
+           }
 .join:hover{
     background-color: rgb(44, 45, 46);
 
-}
+           }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 nav a {
     text-align: center;
     color: #fcfbfb;
     text-decoration: none;
+    padding: 35px;
 }  
 .msg{
     background-color: bisque;
+    padding: 35px;
+
 }
 footer{
     background-color: rgb(47, 45, 41);
+    padding: 25px 50px;
+    margin-top: 200px;
+
 }
 footer p {
     font-size: 1.2em;
@@ -69,3 +102,23 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
 }    
+
+.home-title {
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+.msg {
+    background-color: #6f7364;
+    line-height: 1.5em;
+    padding-bottom: 15px;
+  }
+  .rapids-card  { 
+    margin: 200px 0;
+                }
+.camping-card { 
+    margin: 200px 0;
+              }
+.rivers-card { 
+    margin: 200px 0;
+              }
