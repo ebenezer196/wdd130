@@ -1,3 +1,4 @@
+
 header {
     display: grid;
     grid-template-columns: 150px auto;
@@ -10,6 +11,10 @@ nav {
     padding-top: 5px;
     justify-self: center;
     align-self: center;
+}
+.logo{
+    width: 30px;
+    height: 30px;
 }
 .home-title {
     font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
