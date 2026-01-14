@@ -1,0 +1,75 @@
+/* RESET */
+* {
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    color: #000;
+}
+
+/* HEADER */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+
+/* MAIN LAYOUT */
+main {
+    max-width: 800px;
+    margin: 1rem auto;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* MAIN TITLE */
+h1 {
+    color: #000000;
+    margin-bottom: 1rem;
+}
+
+/* IMAGE */
+main img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+/* SECTIONS */
+section {
+    background-color: #e6e6e6;
+    margin: 1.5rem auto;
+    padding: 1rem;
+    max-width: 600px;
+    text-align: left;
+    border-radius: 4px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.15);
+}
+
+/* SECTION TITLES */
+section h2 {
+    margin-top: 0;
+    border-bottom: 1px solid #999;
+    padding-bottom: 0.3rem;
+}
+
+/* LIST */
+ul {
+    padding-left: 1.2rem;
+}
+
+/* FOOTER */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 0.75rem;
+    font-size: 0.9rem;
+}
