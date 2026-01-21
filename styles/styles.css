@@ -1,52 +1,139 @@
+/* UNIVERSAL SELECTOR */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY STYLES */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* NAVIGATION */
 nav {
-    background-color: #333;
-    padding: 1rem;
+  background-color: #333;
+  padding: 1rem;
+  text-align: center;
 }
 
 nav a {
-    color: white;
-    padding: 0.5rem;
-    display: block;
-    text-decoration: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  display: inline-block; /* lien horizontal */
+  font-weight: bold;
 }
 
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* MAIN CONTENT */
 main {
-    max-width: 800px;
-    margin: 0 auto;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
 }
 
+/* HEADINGS */
 h1 {
-    color: darkblue;
+  color: darkblue;
+  margin-bottom: 1rem;
 }
 
+h2 {
+  margin-bottom: 0.5rem;
+}
+
+/* PROFILE IMAGE */
 main img {
-    width: 150px;
-    height: auto;
-    border: 2px solid black;
-    padding: 5px;
-    box-shadow: 2px 2px 5px gray;
+  width: 150px;
+  height: auto;
+  border: 2px solid black;
+  padding: 5px;
+  box-shadow: 2px 2px 5px gray;
+  float: right;
+  margin-left: 1rem;   /* espace entre texte et image */
+  margin-bottom: 1rem; /* espace en bas */
 }
 
+/* PARAGRAPHS */
+p {
+  padding: 0;
+  margin-bottom: 1rem;
+}
+
+/* ASIDE */
 aside {
-    width: 300px;
-    margin: 1rem;
-    border: 1px solid black;
-    padding: 1rem;
-    background-color: #f4f4f4;
-    color: black;
+  width: 300px;
+  text-align: center;
+  position: relative;
+  border: 1px solid black;
+  background-color: #f4f4f4;
+  color: black;
+  margin: 1rem auto;
+  padding-top: 2rem; /* espace pour l'overlay du h2 */
 }
 
 aside img {
-    width: 200px;
-    height: auto;
+  width: 200px;
+  height: auto;
 }
 
-p {
-    padding: 0;
+/* ASIDE HEADING OVERLAY */
+aside h2 {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 
+/* BOX CLASS */
+.box {
+  margin: 1rem;
+  border: 1px solid rgb(0 0 0 / 10%);
+  padding: 1rem;
+  background-color: #ddd;
+  color: #000;
+}
+
+/* LIST OF TEMPLES - LINKS STYLING */
+ul.box li a {
+  display: block;
+  padding: 8px;
+  margin: 5px 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #000;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+ul.box li a:hover {
+  background-color: darkblue;
+  color: white;
+}
+
+/* CLEAR FLOATS */
+main::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* FOOTER */
 footer {
-    margin-top: 2rem;
-    border-top: 1px solid black;
-    text-align: center;
+  margin-top: 2rem;
+  border-top: 1px solid black;
+  text-align: center;
+  padding: 1rem 0;
+  background-color: #333;
+  color: white;
 }
+
+/* Class Selectors */
+/* Tu peux ajouter d'autres classes personnalisées ici */
