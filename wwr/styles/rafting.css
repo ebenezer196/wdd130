@@ -10,6 +10,9 @@
   --heading-font: "Georgia", serif;
   --body-font: Arial, Helvetica, sans-serif;
 }
+section {
+  background-color: var(--secondary-color);
+}
 
 /* ==============================
    RESET
