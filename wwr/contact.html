@@ -5,12 +5,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Contact Us | White Water Rafting</title>
+  <title>Contact Us | White Water Rafting Company</title>
 
-  <meta name="description"
-    content="Contact White Water Rafting for reservations, questions, and adventure information.">
+  <meta name="author" content="Eben">
+  content="Contact White Water Rafting for reservations, questions, and adventure information.">
 
-  <link rel="stylesheet" href="rafting.css">
+  <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
 <body>
@@ -18,7 +18,7 @@
   <!-- Header -->
   <header>
 
-    <img src="images/logo.png" alt="Rafting Logo" class="logo">
+    <img src="images/rafting-logo.png" alt="Rafting Logo" class="logo">
 
     <nav>
       <a href="index.html">Home</a>
@@ -63,56 +63,54 @@
       <!-- Form -->
       <div class="form-box">
 
-        <form>
 
-          <label>
-            Name
-            <input type="text" required>
-          </label>
+        <form action="#" method="post">
 
-          <label>
-            Email
-            <input type="email" required>
-          </label>
+          <!-- Name -->
+          <label for="fullname">Name</label>
+          <input type="text" id="fullname" name="fullname" required>
 
+          <!-- Email -->
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
 
+          <!-- Purpose -->
           <fieldset>
 
-            <legend>Message Purpose</legend>
+            <legend>Purpose of Message</legend>
 
-            <label>
-              <input type="radio" name="purpose" required>
+            <label for="general">
+              <input type="radio" id="general" name="purpose" value="general" required>
               General Inquiry
             </label>
 
-            <label>
-              <input type="radio" name="purpose">
+            <label for="reservation">
+              <input type="radio" id="reservation" name="purpose" value="reservation">
               Reservation Question
             </label>
 
-            <label>
-              <input type="radio" name="purpose">
+            <label for="website">
+              <input type="radio" id="website" name="purpose" value="website">
               Website Suggestion
             </label>
 
           </fieldset>
 
+          <!-- Message -->
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
 
-          <label>
-            Message
-            <textarea rows="4"></textarea>
+          <!-- Subscribe -->
+          <label for="subscribe" class="checkbox">
+            <input type="checkbox" id="subscribe" name="subscribe">
+            Please subscribe me to the monthly newsletter
           </label>
 
-
-          <label class="checkbox">
-            <input type="checkbox">
-            Please Subscribe me to the monthly newsletter
-          </label>
-
-
-          <button type="submit">Get in Touch!</button>
+          <!-- Submit -->
+          <button type="submit">Send Message</button>
 
         </form>
+
 
       </div>
 
@@ -127,17 +125,17 @@
       <div class="employee-grid">
 
         <figure>
-          <img src="https://via.placeholder.com/150">
+          <img src="images/employee1.jpg">
           <figcaption>Employee Profile</figcaption>
         </figure>
 
         <figure>
-          <img src="https://via.placeholder.com/150">
+          <img src="images/employee2.jpg">
           <figcaption>Employee Profile</figcaption>
         </figure>
 
         <figure>
-          <img src="https://via.placeholder.com/150">
+          <img src="images/employee3.jpg">
           <figcaption>Employee Profile</figcaption>
         </figure>
 
@@ -152,17 +150,26 @@
   <!-- Footer -->
   <footer>
 
-    <p>Footer Content including Social Media Icons/Links</p>
+    <p>© 2026 White Water Rafting | Eben</p>
 
-    <div class="social">
+    <nav class="socialmedia">
 
-      <img src="images/facebook.png">
-      <img src="images/twitter.png">
-      <img src="images/instagram.png">
+      <a href="#">
+        <img src="images/facebook.png" alt="Facebook icon">
+      </a>
 
-    </div>
+      <a href="#">
+        <img src="images/twitter.png" alt="Twitter icon">
+      </a>
+
+      <a href="#">
+        <img src="images/instagram.png" alt="Instagram icon">
+      </a>
+
+    </nav>
 
   </footer>
+
 
 </body>
 
